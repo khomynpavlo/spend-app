@@ -19,7 +19,7 @@ class App extends Component {
         this.setState({ 
           spendItem: event.target.value
         });
-        console.log('SpendingSelector value > ', event.target.value)
+        console.log('SpendingSelector value > ', event.target.value);
 }
 
     render() {
